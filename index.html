@@ -1,0 +1,637 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Property Refresh Service</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <!-- HEADER -->
+    <header class="site-header">
+      <div class="menu-btn" onclick="toggleMenu()">☰</div>
+      <div class="mobile-nav" id="mobileNav">
+        <a href="#">Home</a>
+        <a href="projects.html">Projects</a>
+        <a href="contact.html">Contact</a>
+
+        <a class="btn-primary" href="https://wa.me/27000000000" target="_blank">
+          Get Quote
+        </a>
+      </div>
+
+      <div class="container header-flex">
+        <div class="logo">
+          <h1>Property <span>Refresh Service</span></h1>
+        </div>
+
+        <nav class="main-nav">
+          <a href="#">Home</a>
+          <a href="projects.html">Projects</a>
+          <a href="contact.html">Contact</a>
+
+          <a
+            class="btn-primary"
+            href="https://wa.me/27000000000?text=Hi%20I%20would%20like%20a%20quote"
+            target="_blank"
+          >
+            Get Quote
+          </a>
+        </nav>
+      </div>
+    </header>
+
+    <!-- HERO -->
+    <section class="hero-section">
+      <div class="container hero-grid">
+        <div class="hero-text">
+          <div class="hero-badge">Kimberley's Property Reset Specialists</div>
+
+          <h1>Property Ready in <span>One Visit</span></h1>
+
+          <p>
+            Professional property preparation service for landlords, Airbnb
+            hosts, and estate agents. We handle everything from deep cleaning to
+            minor repairs.
+          </p>
+
+          <ul class="hero-benefits">
+            <li>All-in-one reset service completed in one visit</li>
+            <li>Deep cleaning, repairs, paint touch-ups</li>
+            <li>Fixed pricing based on property size</li>
+            <li>Before & after photo documentation</li>
+          </ul>
+
+          <div class="hero-buttons">
+            <a class="btn-primary" href="#">Get Quote on WhatsApp</a>
+            <a class="btn-outline" href="#pricing">View Pricing</a>
+          </div>
+
+          <div class="hero-trust">
+            <span>Fast Response</span>
+            <span>Insured</span>
+            <span>Local to Kimberley</span>
+          </div>
+        </div>
+
+        <div class="hero-image">
+          <img
+            src="https://images.unsplash.com/photo-1725042893312-5ec0dea9e369"
+            alt="Clean Property"
+          />
+
+          <div class="hero-badge-floating">
+            <h3>24-48hr</h3>
+            <p>Turnaround Time</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SERVICES -->
+    <section class="services-section">
+      <div class="container">
+        <h2 class="section-title">
+          Everything Your Property Needs in One Visit
+        </h2>
+
+        <p class="section-subtitle">
+          No need to coordinate multiple contractors. Our all-in-one reset
+          service handles every detail.
+        </p>
+
+        <div class="services-grid">
+          <div class="service-card">
+            <div class="service-icon-bg">
+              <i class="fa-solid fa-broom service-icon"></i>
+            </div>
+            <h3>Deep Cleaning</h3>
+            <p>
+              Complete property cleaning including kitchens, bathrooms and all
+              living spaces.
+            </p>
+          </div>
+
+          <div class="service-card">
+            <div>
+              <i
+                class="service-icon-bg"
+                class="fa-solid fa-paint-roller service-icon"
+              ></i>
+            </div>
+            <h3>Wall Repairs & Paint Touch-ups</h3>
+            <p>Repair holes and restore walls to move-in condition.</p>
+          </div>
+
+          <div class="service-card">
+            <div>
+              <i
+                class="service-icon-bg"
+                class="fa-solid fa-screwdriver-wrench service-icon"
+              ></i>
+            </div>
+            <h3>Handyman Fixes</h3>
+            <p>Fix loose handles, hinges and cupboard fittings.</p>
+          </div>
+
+          <div class="service-card">
+            <div>
+              <i
+                class="service-icon-bg"
+                class="fa-solid fa-faucet-drip service-icon"
+              ></i>
+            </div>
+            <h3>Plumbing Fixes</h3>
+            <p>Repair leaking taps and seal bathroom areas.</p>
+          </div>
+
+          <div class="service-card">
+            <div class="service-icon-bg">
+              <i class="fa-solid fa-lightbulb service-icon"></i>
+            </div>
+            <h3>Light Bulb Replacement</h3>
+            <p>Replace all burnt-out bulbs in the property.</p>
+          </div>
+
+          <div class="service-card">
+            <div class="service-icon-bg">
+              <i class="fa-solid fa-screwdriver service-icon"></i>
+            </div>
+            <h3>Fixture Removal</h3>
+            <p>Remove unwanted hooks or fixtures.</p>
+          </div>
+
+          <div class="service-card">
+            <div class="service-icon-bg">
+              <i class="fa-solid fa-leaf service-icon"></i>
+            </div>
+            <h3>Yard Clean-up</h3>
+            <p>Clear garden debris and tidy outdoor spaces.</p>
+          </div>
+
+          <div class="service-card">
+            <div class="service-icon-bg">
+              <i class="fa-solid fa-camera service-icon"></i>
+            </div>
+            <h3>Photo Documentation</h3>
+            <p>Before-and-after photos for records.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- HOW IT WORKS -->
+    <section class="process-section">
+      <div class="container">
+        <h2 class="section-title">Simple Process, Reliable Results</h2>
+
+        <div class="process-grid">
+          <div class="process-step">
+            <h3>01</h3>
+            <i class="fa-solid fa-comments process-icon"></i>
+            <div class="process-content">
+              <h4>Contact Us on WhatsApp</h4>
+              <p>
+                Send us a message with your property details, photos if
+                possible, and preferred timing..
+              </p>
+            </div>
+          </div>
+
+          <div class="process-step">
+            <h3>02</h3>
+            <i class="fa-solid fa-file-invoice-dollar process-icon"></i>
+            <div class="process-content">
+              <h4>Get Quote & Schedule</h4>
+              <p>
+                Receive a fixed-price quote within hours. Pick a date that works
+                for you—we're flexible.
+              </p>
+            </div>
+          </div>
+
+          <div class="process-step">
+            <h3>03</h3>
+            <i class="fa-solid fa-screwdriver-wrench process-icon"></i>
+            <div class="process-content">
+              <h4>We Do the Work</h4>
+              <p>
+                Our team arrives with all equipment and completes the full
+                property reset in one visit.
+              </p>
+            </div>
+          </div>
+
+          <div class="process-step">
+            <h3>04</h3>
+            <i class="fa-solid fa-house process-icon"></i>
+            <h4>Property Ready</h4>
+            <p>
+              Your property is cleaned, repaired, and documented. Ready for the
+              next occupant immediately.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- WHO WE SERVE -->
+    <section class="clients-section">
+      <div class="container">
+        <h2 class="section-title">Who We Help</h2>
+
+        <p class="clients-intro">
+          Whether you own properties, manage rentals, or need to hand back a
+          spotless home—we've got you covered.
+        </p>
+
+        <div class="clients-grid">
+          <div class="client-card">
+            <div class="client-card-icon">
+              <i class="fas fa-city"></i>
+            </div>
+            <h3>Landlords</h3>
+            <p>
+              Prepare your rental property between tenants without the hassle of
+              coordinating multiple trades. Get it market-ready fast.
+            </p>
+            <ul>
+              <li>Minimize vacancy periods</li>
+              <li>Fixed costs per turnover</li>
+              <li>Photo proof of condition</li>
+            </ul>
+          </div>
+
+          <div class="client-card">
+            <div class="client-card-icon">
+              <i class="fas fa-bed"></i>
+            </div>
+            <h3>Airbnb & Holiday Hosts</h3>
+            <p>
+              Keep your short-term rental in top condition with periodic deep
+              resets. Maintain those 5-star reviews with spotless standards.
+            </p>
+            <ul>
+              <li>Deep cleans between guests</li>
+              <li>Maintain property standards</li>
+              <li>Quick turnaround service</li>
+            </ul>
+          </div>
+
+          <div class="client-card">
+            <div class="client-card-icon">
+              <i class="fas fa-handshake"></i>
+            </div>
+            <h3>Estate Agents</h3>
+            <p>
+              Prepare properties for sale or new tenants. Present homes at their
+              best to secure faster sales and higher rental rates.
+            </p>
+            <ul>
+              <li>Show-ready properties</li>
+              <li>Professional presentation</li>
+              <li>Same agents, every time</li>
+            </ul>
+          </div>
+
+          <div class="client-card">
+            <div class="client-card-icon">
+              <i class="fas fa-key"></i>
+            </div>
+            <h3>Outgoing Tenants</h3>
+            <p>
+              Get your deposit back by leaving the property in pristine
+              condition. We know exactly what landlords and agents expect.
+            </p>
+            <ul>
+              <li>Maximize deposit return</li>
+              <li>Meet lease obligations</li>
+              <li>Professional handover</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PRICING -->
+    <section id="pricing" class="pricing-section">
+      <div class="container">
+        <h2 class="section-title">Simple, Transparent Pricing</h2>
+        <p class="pricing-intro">
+          No surprises, no hidden fees. Choose your package based on property
+          size, or add extras as needed. All prices include materials and
+          labour.
+        </p>
+
+        <div class="pricing-grid">
+          <div class="pricing-card">
+            <h3>Studio / 1 Bedroom</h3>
+            <p class="property-size">Up to 50m²</p>
+
+            <div class="pricing-price">
+              <h2>R2,500</h2>
+              <span>once-off</span>
+            </div>
+
+            <ul>
+              <li>Deep cleaning (all rooms)</li>
+              <li>Wall repairs & paint touch-ups</li>
+              <li>Minor handyman fixes</li>
+              <li>Light bulb replacement</li>
+              <li>Bathroom sealing</li>
+              <li>Fixture removal</li>
+              <li>Before/after photos</li>
+              <li>Same-day completion</li>
+            </ul>
+
+            <a href="#" class="btn-dark">Book This Package</a>
+          </div>
+
+          <div class="pricing-card popular">
+            <div class="popular-badge">Most Popular</div>
+
+            <h3>2 Bedroom Property</h3>
+            <p class="property-size">Up to 80m²</p>
+
+            <div class="price">
+              <h2>R4,200</h2>
+              <span>once-off</span>
+            </div>
+
+            <ul>
+              <li>Deep cleaning (all rooms)</li>
+              <li>Wall repairs & paint touch-ups</li>
+              <li>Minor handyman fixes</li>
+              <li>Light bulb replacement</li>
+              <li>Bathroom sealing</li>
+              <li>Fixture removal</li>
+              <li>Basic yard clean-up</li>
+              <li>Before/after photos</li>
+              <li>Same-day completion</li>
+            </ul>
+
+            <a href="#" class="btn-primary">Book This Package</a>
+          </div>
+
+          <div class="pricing-card">
+            <h3>3 Bedroom House</h3>
+            <p class="property-size">Up to 120m²</p>
+
+            <div class="price">
+              <h2>R5,800</h2>
+              <span>once-off</span>
+            </div>
+
+            <ul>
+              <li>Deep cleaning (all rooms)</li>
+              <li>Wall repairs & paint touch-ups</li>
+              <li>Minor handyman fixes</li>
+              <li>Plumbing quick fixes</li>
+              <li>Light bulb replacement</li>
+              <li>Bathroom sealing</li>
+              <li>Fixture removal</li>
+              <li>Garden & yard clean-up</li>
+              <li>Before/after photos</li>
+              <li>1–2 day completion</li>
+            </ul>
+
+            <a href="#" class="btn-dark">Book This Package</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Optional Add-ons -->
+    <section class="addons">
+      <div class="addons-container">
+        <h2>Optional Add-On Services</h2>
+
+        <div class="addons-grid">
+          <div class="addon-card">
+            <h3>Deep Carpet Cleaning</h3>
+            <p class="addon-price">R450 per room</p>
+          </div>
+
+          <div class="addon-card">
+            <h3>Full Room Repaint</h3>
+            <p class="addon-price">From R1,200</p>
+          </div>
+
+          <div class="addon-card">
+            <h3>Appliance Deep Clean</h3>
+            <p class="addon-price">R300 each</p>
+          </div>
+
+          <div class="addon-card">
+            <h3>Gutter Cleaning</h3>
+            <p class="addon-price">R650</p>
+          </div>
+
+          <div class="addon-card">
+            <h3>Window Frame Repairs</h3>
+            <p class="addon-price">From R400</p>
+          </div>
+
+          <div class="addon-card">
+            <h3>Garden Maintenance</h3>
+            <p class="addon-price">From R800</p>
+          </div>
+        </div>
+
+        <p class="custom-quote">
+          Need something specific? Contact us for a custom quote tailored to
+          your property’s needs.
+        </p>
+
+        <p class="disclaimer">
+          * Prices based on standard condition properties in Kimberley area.
+          Properties requiring extensive repairs or deep neglect may require
+          custom quotes. Travel surcharge may apply for properties outside
+          Kimberley.
+        </p>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="faq-section">
+      <div class="container">
+        <h2 class="section-title">Frequently Asked Questions</h2>
+        <p class="section-subtitle">
+          Common questions about our property reset service
+        </p>
+
+        <div class="faq-item">
+          <h3>
+            What if my property needs more work than the standard package?
+          </h3>
+          <p>
+            We'll let you know during the initial consultation if your property
+            requires additional work beyond the standard package. We can provide
+            a custom quote for extensive repairs, or recommend specialists for
+            major renovations if needed.
+          </p>
+        </div>
+
+        <div class="faq-item">
+          <h3>Can you work around my schedule or tenant handover dates?</h3>
+          <p>
+            Yes! We understand property turnovers work to tight timelines. We
+            offer flexible scheduling including weekends where possible. Just
+            let us know your deadline and we'll do our best to accommodate it.
+          </p>
+        </div>
+
+        <div class="faq-item">
+          <h3>Do you offer any guarantees on your work?</h3>
+          <p>
+            Yes, we guarantee all work for 7 days after completion. If something
+            we've fixed comes loose or a repair fails, we'll come back and make
+            it right at no charge. We also provide photo documentation of all
+            completed work.
+          </p>
+        </div>
+
+        <div class="faq-item">
+          <h3>What areas do you service?</h3>
+          <p>
+            We're based in Kimberley and service the greater Kimberley area and
+            surrounding Northern Cape towns. For properties outside Kimberley, a
+            small travel surcharge may apply. Contact us to confirm service
+            availability for your location.
+          </p>
+        </div>
+
+        <div class="faq-item">
+          <h3>How do I get started?</h3>
+          <p>
+            Simply send us a message on WhatsApp with your property address,
+            number of bedrooms, and any photos if you have them. We'll respond
+            with a quote usually within a few hours. Once you accept, we'll
+            schedule a convenient date for the work.
+          </p>
+        </div>
+
+        <div class="faq-item">
+          <h3>What payment methods do you accept?</h3>
+          <p>
+            We accept cash, EFT, and card payments. Payment is due upon
+            completion of work. For larger jobs, we may request a 50% deposit
+            upfront with the balance on completion.
+          </p>
+        </div>
+
+        <div class="faq-contact">
+          <h3>Still have questions?</h3>
+          <p>
+            We're here to help. Send us a message on WhatsApp and we'll answer
+            any questions you have.
+          </p>
+
+          <a href="https://wa.me/27000000000" class="whatsapp-btn">
+            Ask on WhatsApp
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer-section">
+      <div class="container footer-grid">
+        <!-- COMPANY INFO -->
+
+        <div class="footer-company">
+          <h3 class="footer-logo">Property Refresh Service</h3>
+
+          <p class="footer-description">
+            Kimberley's trusted property preparation service. We handle all the
+            cleaning, repairs and touch-ups needed to get your property ready
+            between occupants — all in one visit.
+          </p>
+
+          <a
+            href="https://wa.me/27000000000?text=Hi%20I%20would%20like%20a%20quote"
+            target="_blank"
+            class="btn-primary footer-whatsapp"
+          >
+            WhatsApp Us
+          </a>
+        </div>
+
+        <!-- QUICK LINKS -->
+        <div class="footer-links">
+          <h4>Quick Links</h4>
+
+          <ul>
+            <li><a href="#">Home</a></li>
+
+            <li><a href="#">Projects</a></li>
+
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
+
+        <!-- CONTACT INFO -->
+        <div class="footer-contact">
+          <h4>Contact</h4>
+
+          <ul>
+            <li><i class="fa-solid fa-phone"></i> +27 82 123 4567</li>
+
+            <li>
+              <i class="fa-solid fa-envelope"></i> info@propertyrefresh.co.za
+            </li>
+
+            <li>
+              <i class="fa-solid fa-location-dot"></i> Kimberley, Northern Cape
+            </li>
+          </ul>
+
+          <p class="footer-hours">
+            Mon - Sat: 8:00am - 6:00pm<br />
+            Sunday: By appointment
+          </p>
+        </div>
+      </div>
+
+      <!-- FOOTER BOTTOM -->
+      <div class="footer-bottom">
+        <p>© 2026 Property Refresh Service. All rights reserved.</p>
+
+        <p>
+          Serving Kimberley and surrounding Northern Cape areas with
+          professional property preparation services.
+        </p>
+      </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script>
+      function toggleMenu() {
+        const menu = document.getElementById("mobileNav");
+
+        menu.classList.toggle("active");
+      }
+    </script>
+
+    <script>
+      const faqItems = document.querySelectorAll(".faq-item");
+
+      faqItems.forEach((item) => {
+        const question = item.querySelector("h3");
+
+        question.addEventListener("click", () => {
+          item.classList.toggle("active");
+        });
+      });
+    </script>
+  </body>
+</html>
