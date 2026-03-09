@@ -784,6 +784,13 @@ body {
   font-size: 14px;
 }
 
+.main-nav a.active,
+.mobile-nav a.active {
+  color: #10b981;        /* Example: change text color */
+  background: transparent; /* Example: highlight background */
+  font-weight: 600;
+}
+
 /* RESPONSIVE FOOTER */
 
 @media (max-width: 900px) {

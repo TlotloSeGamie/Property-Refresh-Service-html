@@ -1,222 +1,264 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-<title>Contact | Move-Out Reset</title>
-
-<link rel="stylesheet" href="contact.css">
-
-<link rel="stylesheet"
-href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-
-</head>
-
-<body>
-
-<section id="contact-section" class="contact-section">
-
-<div class="contact-container">
-
-<div class="contact-grid">
-
-<!-- LEFT COLUMN -->
-<div class="contact-left">
-
-<h2 class="contact-title">Get in Touch</h2>
-
-<p class="contact-intro">
-Ready to get your property reset? Send us a message on WhatsApp or give us a call.
-We'll respond with a quote within hours.
-</p>
-
-<!-- WHATSAPP -->
-<div class="contact-card whatsapp-card">
-
-<div class="contact-icon whatsapp-icon">
-<i class="fa-brands fa-whatsapp"></i>
-</div>
-
-<div class="contact-info">
-<h3>WhatsApp (Preferred)</h3>
-
-<p>
-Fastest way to get a quote. Send us photos and property details.
-</p>
-
-<a href="https://wa.me/27000000000?text=Hi%2C%20I%27d%20like%20to%20get%20a%20quote%20for%20Move-Out%20Reset%20services"
-target="_blank"
-class="contact-btn">
-Chat on WhatsApp
-</a>
-
-</div>
-</div>
-
-
-<!-- PHONE -->
-<div class="contact-card">
-
-<div class="contact-icon">
-<i class="fa-solid fa-phone"></i>
-</div>
-
-<div class="contact-info">
-
-<h3>Phone</h3>
-
-<p class="contact-highlight">+27 00 000 0000</p>
-
-<p class="contact-small">Mon-Sat, 8am-6pm</p>
-
-</div>
-
-</div>
-
-
-<!-- EMAIL -->
-<div class="contact-card">
-
-<div class="contact-icon">
-<i class="fa-solid fa-envelope"></i>
-</div>
-
-<div class="contact-info">
-
-<h3>Email</h3>
-
-<p class="contact-highlight">info@moveoutreset.co.za</p>
-
-<p class="contact-small">Response within 24 hours</p>
-
-</div>
-
-</div>
-
-
-<!-- LOCATION -->
-<div class="contact-card">
-
-<div class="contact-icon">
-<i class="fa-solid fa-location-dot"></i>
-</div>
-
-<div class="contact-info">
-
-<h3>Service Area</h3>
-
-<p class="contact-highlight">Kimberley & Surrounding Areas</p>
-
-<p class="contact-small">Northern Cape, South Africa</p>
-
-</div>
-
-</div>
-
-
-<!-- BUSINESS HOURS -->
-<div class="contact-card hours-card">
-
-<div class="contact-icon">
-<i class="fa-solid fa-clock"></i>
-</div>
-
-<div class="contact-info">
-
-<h3>Business Hours</h3>
-
-<div class="hours-row">
-<span>Monday - Friday</span>
-<span>8:00am - 6:00pm</span>
-</div>
-
-<div class="hours-row">
-<span>Saturday</span>
-<span>8:00am - 2:00pm</span>
-</div>
-
-<div class="hours-row">
-<span>Sunday</span>
-<span>By appointment</span>
-</div>
-
-</div>
-
-</div>
-
-</div>
-
-
-<!-- RIGHT COLUMN -->
-<div class="contact-right">
-
-<h3 class="quote-title">What to Include in Your Message</h3>
-
-<p class="quote-intro">
-Help us give you an accurate quote faster by including these details:
-</p>
-
-<div class="quote-list">
-
-<div class="quote-item">
-<strong>1. Property Type</strong>
-<p>e.g., 2 bedroom apartment, 3 bedroom house</p>
-</div>
-
-<div class="quote-item">
-<strong>2. Property Size</strong>
-<p>Approximate square meters if known</p>
-</div>
-
-<div class="quote-item">
-<strong>3. Current Condition</strong>
-<p>Good, fair, or needs extensive work</p>
-</div>
-
-<div class="quote-item">
-<strong>4. Specific Needs</strong>
-<p>Cleaning only, or include repairs?</p>
-</div>
-
-<div class="quote-item">
-<strong>5. Timeline</strong>
-<p>When do you need it done?</p>
-</div>
-
-<div class="quote-item">
-<strong>6. Photos (Optional)</strong>
-<p>Photos help us quote accurately</p>
-</div>
-
-</div>
-
-
-<div class="quote-cta">
-
-<p>
-<strong>Quick Response Guarantee:</strong><br>
-We'll send you a quote within a few hours during business hours.
-</p>
-
-<a href="https://wa.me/27000000000?text=Hi%2C%20I%27d%20like%20to%20get%20a%20quote%20for%20Move-Out%20Reset%20services"
-target="_blank"
-class="quote-btn">
-
-<i class="fa-brands fa-whatsapp"></i>
-Start Your Quote on WhatsApp
-
-</a>
-
-</div>
-
-</div>
-
-</div>
-
-</div>
-
-</section>
-
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact | Move-Out Reset</title>
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="contact.css" />
+  </head>
+
+  <body>
+    <!-- HEADER (same as landing page) -->
+    <header class="site-header">
+      <div class="menu-btn" onclick="toggleMenu()">☰</div>
+      <div class="mobile-nav" id="mobileNav">
+        <a href="index.html">Home</a>
+        <a href="projects.html">Projects</a>
+        <a href="contact.html" class="active">Contact</a>
+        <a class="btn-primary" href="https://wa.me/27000000000" target="_blank">
+          Get Quote
+        </a>
+      </div>
+
+      <div class="container header-flex">
+        <div class="logo">
+          <h1>Property <span>Refresh Service</span></h1>
+        </div>
+
+        <nav class="main-nav">
+          <a href="index.html">Home</a>
+          <a href="projects.html">Projects</a>
+          <a href="contact.html class="active"">Contact</a>
+
+          <a
+            class="btn-primary"
+            href="https://wa.me/27000000000?text=Hi%20I%20would%20like%20a%20quote"
+            target="_blank"
+          >
+            Get Quote
+          </a>
+        </nav>
+      </div>
+    </header>
+
+    <!-- CONTACT SECTION -->
+    <section id="contact-section" class="contact-section">
+      <div class="contact-container">
+        <div class="contact-grid">
+          <!-- LEFT COLUMN -->
+          <div class="contact-left">
+            <h2 class="contact-title">Get in Touch</h2>
+            <p class="contact-intro">
+              Ready to get your property reset? Send us a message on WhatsApp or
+              give us a call. We'll respond with a quote within hours.
+            </p>
+
+            <!-- WHATSAPP -->
+            <div class="contact-card whatsapp-card">
+              <div class="contact-icon whatsapp-icon">
+                <i class="fa-brands fa-whatsapp"></i>
+              </div>
+              <div class="contact-info">
+                <h3>WhatsApp (Preferred)</h3>
+                <p>Fastest way to get a quote. Send us photos and property details.</p>
+                <a
+                  href="https://wa.me/27000000000?text=Hi%2C%20I%27d%20like%20to%20get%20a%20quote%20for%20Move-Out%20Reset%20services"
+                  target="_blank"
+                  class="contact-btn"
+                >
+                  Chat on WhatsApp
+                </a>
+              </div>
+            </div>
+
+            <!-- PHONE -->
+            <div class="contact-card">
+              <div class="contact-icon">
+                <i class="fa-solid fa-phone"></i>
+              </div>
+              <div class="contact-info">
+                <h3>Phone</h3>
+                <p class="contact-highlight">+27 82 123 4567</p>
+                <p class="contact-small">Mon-Sat, 8am-6pm</p>
+              </div>
+            </div>
+
+            <!-- EMAIL -->
+            <div class="contact-card">
+              <div class="contact-icon">
+                <i class="fa-solid fa-envelope"></i>
+              </div>
+              <div class="contact-info">
+                <h3>Email</h3>
+                <p class="contact-highlight">info@moveoutreset.co.za</p>
+                <p class="contact-small">Response within 24 hours</p>
+              </div>
+            </div>
+
+            <!-- LOCATION -->
+            <div class="contact-card">
+              <div class="contact-icon">
+                <i class="fa-solid fa-location-dot"></i>
+              </div>
+              <div class="contact-info">
+                <h3>Service Area</h3>
+                <p class="contact-highlight">Kimberley & Surrounding Areas</p>
+                <p class="contact-small">Northern Cape, South Africa</p>
+              </div>
+            </div>
+
+            <!-- BUSINESS HOURS -->
+            <div class="contact-card hours-card">
+              <div class="contact-icon">
+                <i class="fa-solid fa-clock"></i>
+              </div>
+              <div class="contact-info">
+                <h3>Business Hours</h3>
+                <div class="hours-row">
+                  <span>Monday - Friday</span>
+                  <span>8:00am - 6:00pm</span>
+                </div>
+                <div class="hours-row">
+                  <span>Saturday</span>
+                  <span>8:00am - 2:00pm</span>
+                </div>
+                <div class="hours-row">
+                  <span>Sunday</span>
+                  <span>By appointment</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- RIGHT COLUMN -->
+          <div class="contact-right">
+            <h3 class="quote-title">What to Include in Your Message</h3>
+            <p class="quote-intro">
+              Help us give you an accurate quote faster by including these details:
+            </p>
+
+            <div class="quote-list">
+              <div class="quote-item">
+                <strong>1. Property Type</strong>
+                <p>e.g., 2 bedroom apartment, 3 bedroom house</p>
+              </div>
+              <div class="quote-item">
+                <strong>2. Property Size</strong>
+                <p>Approximate square meters if known</p>
+              </div>
+              <div class="quote-item">
+                <strong>3. Current Condition</strong>
+                <p>Good, fair, or needs extensive work</p>
+              </div>
+              <div class="quote-item">
+                <strong>4. Specific Needs</strong>
+                <p>Cleaning only, or include repairs?</p>
+              </div>
+              <div class="quote-item">
+                <strong>5. Timeline</strong>
+                <p>When do you need it done?</p>
+              </div>
+              <div class="quote-item">
+                <strong>6. Photos (Optional)</strong>
+                <p>Photos help us quote accurately</p>
+              </div>
+            </div>
+
+            <div class="quote-cta">
+              <p>
+                <strong>Quick Response Guarantee:</strong><br />
+                We'll send you a quote within a few hours during business hours.
+              </p>
+
+              <a
+                href="https://wa.me/27000000000?text=Hi%2C%20I%27d%20like%20to%20get%20a%20quote%20for%20Move-Out%20Reset%20services"
+                target="_blank"
+                class="quote-btn"
+              >
+                <i class="fa-brands fa-whatsapp"></i>
+                Start Your Quote on WhatsApp
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER (same as landing page) -->
+    <footer class="footer-section">
+      <div class="container footer-grid">
+        <div class="footer-company">
+          <h3 class="footer-logo">Property Refresh Service</h3>
+          <p class="footer-description">
+            Kimberley's trusted property preparation service. We handle all the
+            cleaning, repairs and touch-ups needed to get your property ready
+            between occupants — all in one visit.
+          </p>
+          <a
+            href="https://wa.me/27000000000?text=Hi%20I%20would%20like%20a%20quote"
+            target="_blank"
+            class="btn-primary footer-whatsapp"
+          >
+            WhatsApp Us
+          </a>
+        </div>
+
+        <div class="footer-links">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-contact">
+          <h4>Contact</h4>
+          <ul>
+            <li><i class="fa-solid fa-phone"></i> +27 82 123 4567</li>
+            <li><i class="fa-solid fa-envelope"></i> info@propertyrefresh.co.za</li>
+            <li><i class="fa-solid fa-location-dot"></i> Kimberley, Northern Cape</li>
+          </ul>
+          <p class="footer-hours">
+            Mon - Sat: 8:00am - 6:00pm<br />
+            Sunday: By appointment
+          </p>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>© 2026 Property Refresh Service. All rights reserved.</p>
+        <p>
+          Serving Kimberley and surrounding Northern Cape areas with
+          professional property preparation services.
+        </p>
+      </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script>
+      function toggleMenu() {
+        const menu = document.getElementById("mobileNav");
+        menu.classList.toggle("active");
+      }
+
+      const faqItems = document.querySelectorAll(".faq-item");
+      faqItems.forEach((item) => {
+        const question = item.querySelector("h3");
+        question.addEventListener("click", () => {
+          item.classList.toggle("active");
+        });
+      });
+    </script>
+  </body>
 </html>

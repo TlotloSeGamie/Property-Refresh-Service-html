@@ -154,6 +154,13 @@ font-weight:600;
 background:#059669;
 }
 
+.main-nav a.active,
+.mobile-nav a.active {
+  color: #10b981;        /* Example: change text color */
+  background: transparent; /* Example: highlight background */
+  font-weight: 600;
+}
+
 /* MOBILE */
 
 @media(max-width:900px){
